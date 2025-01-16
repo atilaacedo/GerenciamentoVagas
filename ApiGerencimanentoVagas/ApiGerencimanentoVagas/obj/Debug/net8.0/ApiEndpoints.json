@@ -1,0 +1,100 @@
+[
+  {
+    "ContainingType": "ApiGerencimanentoVagas.Controllers.VagaController",
+    "Method": "Create",
+    "RelativePath": "api/Vaga/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createVagaRequest",
+        "Type": "ApiGerencimanentoVagas.Data.CreateVagaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiGerencimanentoVagas.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[ApiGerencimanentoVagas.Models.VagaModel, ApiGerencimanentoVagas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiGerencimanentoVagas.Controllers.VagaController",
+    "Method": "Delete",
+    "RelativePath": "api/Vaga/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idVaga",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiGerencimanentoVagas.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[ApiGerencimanentoVagas.Models.VagaModel, ApiGerencimanentoVagas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiGerencimanentoVagas.Controllers.VagaController",
+    "Method": "Edit",
+    "RelativePath": "api/Vaga/Edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EditVagaRequest",
+        "Type": "ApiGerencimanentoVagas.Data.EditVagaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiGerencimanentoVagas.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[ApiGerencimanentoVagas.Models.VagaModel, ApiGerencimanentoVagas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiGerencimanentoVagas.Controllers.VagaController",
+    "Method": "Index",
+    "RelativePath": "api/Vaga/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ApiGerencimanentoVagas.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[ApiGerencimanentoVagas.Models.VagaModel, ApiGerencimanentoVagas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

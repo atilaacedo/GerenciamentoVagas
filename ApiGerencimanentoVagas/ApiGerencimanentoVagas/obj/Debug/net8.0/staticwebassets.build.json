@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "I+qHp0oUGFZqNqrCrHRBFLU9ZjBGQvVQeN932TyvYbA=",
+  "Source": "ApiGerencimanentoVagas",
+  "BasePath": "_content/ApiGerencimanentoVagas",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
